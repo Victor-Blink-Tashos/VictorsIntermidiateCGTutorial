@@ -11,13 +11,13 @@ C:\Users\victo\OneDrive\Desktop\School Items\2021.3.9f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/victo/OneDrive/Desktop/School Items/Winter 2024/Intermidiate CG/TutTask/Tut/IntermidiateCGTut
+C:/Users/victo/OneDrive/Desktop/School Items/Winter 2024/Intermidiate CG/TutTask/VictorsIntermidiateCGTutorial/Tut/IntermidiateCGTut
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54993
-Successfully changed project path to: C:/Users/victo/OneDrive/Desktop/School Items/Winter 2024/Intermidiate CG/TutTask/Tut/IntermidiateCGTut
-C:/Users/victo/OneDrive/Desktop/School Items/Winter 2024/Intermidiate CG/TutTask/Tut/IntermidiateCGTut
+62721
+Successfully changed project path to: C:/Users/victo/OneDrive/Desktop/School Items/Winter 2024/Intermidiate CG/TutTask/VictorsIntermidiateCGTutorial/Tut/IntermidiateCGTut
+C:/Users/victo/OneDrive/Desktop/School Items/Winter 2024/Intermidiate CG/TutTask/VictorsIntermidiateCGTutorial/Tut/IntermidiateCGTut
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,11 +47,11 @@ C:/Users/victo/OneDrive/Desktop/School Items/Winter 2024/Intermidiate CG/TutTask
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 380.45 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 132.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.9f1 (ad3870b89536)
 [Subsystems] Discovering subsystems at path C:/Users/victo/OneDrive/Desktop/School Items/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/victo/OneDrive/Desktop/School Items/Winter 2024/Intermidiate CG/TutTask/Tut/IntermidiateCGTut/Assets
+[Subsystems] Discovering subsystems at path C:/Users/victo/OneDrive/Desktop/School Items/Winter 2024/Intermidiate CG/TutTask/VictorsIntermidiateCGTutorial/Tut/IntermidiateCGTut/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -63,44 +63,166 @@ Initialize mono
 Mono path[0] = 'C:/Users/victo/OneDrive/Desktop/School Items/2021.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Users/victo/OneDrive/Desktop/School Items/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Users/victo/OneDrive/Desktop/School Items/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56912
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56856
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Users/victo/OneDrive/Desktop/School Items/2021.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Users/victo/OneDrive/Desktop/School Items/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.019877 seconds.
+Registered in 0.011473 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 150.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 175.13 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.024 seconds
+- Completed reload, in  0.984 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1025ms)
-		BeginReloadAssembly (114ms)
+	ReloadAssembly (985ms)
+		BeginReloadAssembly (95ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
+			CreateAndSetChildDomain (1ms)
 		EndReloadAssembly (725ms)
-			LoadAssemblies (109ms)
+			LoadAssemblies (91ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (155ms)
+			SetupTypeCache (159ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (107ms)
-			SetupLoadedEditorAssemblies (393ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (444ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (151ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (159ms)
-				ProcessInitializeOnLoadMethodAttributes (60ms)
+				RefreshPlugins (175ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (180ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.017148 seconds.
+Registered in 0.008962 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\victo\OneDrive\Desktop\School Items\Winter 2024\Intermidiate CG\TutTask\VictorsIntermidiateCGTutorial\Tut\IntermidiateCGTut\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\victo\OneDrive\Desktop\School Items\Winter 2024\Intermidiate CG\TutTask\VictorsIntermidiateCGTutorial\Tut\IntermidiateCGTut\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 161.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.569 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1569ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1300ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (319ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (748ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (162ms)
+				BeforeProcessingInitializeOnLoad (181ms)
+				ProcessInitializeOnLoadAttributes (286ms)
+				ProcessInitializeOnLoadMethodAttributes (98ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5032 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (1.1 MB). Loaded Objects now: 5473.
+Memory consumption went from 198.2 MB to 197.1 MB.
+Total: 7.253300 ms (FindLiveObjects: 0.667600 ms CreateObjectMapping: 0.651300 ms MarkObjects: 5.076100 ms  DeleteObjects: 0.856600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 34593.846520 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f2f2b655bf21bdea72856b1c39a4a32') in 0.064472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 156.143408 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.013200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 125.527672 seconds.
+  path: Assets/Practice Shader.shadergraph
+  artifactKey: Guid(49b67a0147c124744abb11d95072c705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Practice Shader.shadergraph using Guid(49b67a0147c124744abb11d95072c705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6404a2be1354c887c4e7826ae02f3e45') in 0.014140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 114.567331 seconds.
+  path: Assets/Material.mat
+  artifactKey: Guid(98c47e07c67a2d14cbd3dd9e99a2aab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material.mat using Guid(98c47e07c67a2d14cbd3dd9e99a2aab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8cc853681770d723cc1d66e8420cb8d') in 1.621164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 833.477241 seconds.
+  path: Assets/Practice Shader.shadergraph
+  artifactKey: Guid(49b67a0147c124744abb11d95072c705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Practice Shader.shadergraph using Guid(49b67a0147c124744abb11d95072c705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd28f85aef12c05a97ee88be453dbce7') in 0.007700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 116.055778 seconds.
+  path: Assets/Practice Shader.shadergraph
+  artifactKey: Guid(49b67a0147c124744abb11d95072c705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Practice Shader.shadergraph using Guid(49b67a0147c124744abb11d95072c705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daec13d5367f361a60a88149dae32992') in 0.005505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.961633 seconds.
+  path: Assets/Practice Shader.shadergraph
+  artifactKey: Guid(49b67a0147c124744abb11d95072c705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Practice Shader.shadergraph using Guid(49b67a0147c124744abb11d95072c705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa0e479ac3f4e707cc538199b0140814') in 0.005339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.789345 seconds.
+  path: Assets/Practice Shader.shadergraph
+  artifactKey: Guid(49b67a0147c124744abb11d95072c705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Practice Shader.shadergraph using Guid(49b67a0147c124744abb11d95072c705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22518cd07a7ec2ad94d378c649f6caa9') in 0.005548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 231.544916 seconds.
+  path: Assets/Practice Shader.shadergraph
+  artifactKey: Guid(49b67a0147c124744abb11d95072c705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Practice Shader.shadergraph using Guid(49b67a0147c124744abb11d95072c705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c75bd10a63ffd705cee4f476fce174') in 0.010855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 404.150521 seconds.
+  path: Assets/Practice Shader.shadergraph
+  artifactKey: Guid(49b67a0147c124744abb11d95072c705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Practice Shader.shadergraph using Guid(49b67a0147c124744abb11d95072c705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce46cafcd8c476497c23aa3fa2b36d38') in 0.005603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.703622 seconds.
+  path: Assets/Practice Shader.shadergraph
+  artifactKey: Guid(49b67a0147c124744abb11d95072c705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Practice Shader.shadergraph using Guid(49b67a0147c124744abb11d95072c705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '425e5c90e03a1b3aca483888de1b0524') in 0.005807 seconds 
